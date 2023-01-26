@@ -34,8 +34,6 @@
 
 * 创建仓库
 
-* 将本地仓库推送给远程GitHub仓库
-
   ```cmd
   git remote add origin git@github.com:jiuwen567/learn-git.git
   git branch -M main
@@ -50,5 +48,21 @@
   1. cmd中通过命令`ssh-keygen`再三次回车得到公钥
   2. 再进入到`.ssh`文件通过`explorer .`记事本打开`id_rsa.pub`查看公钥
   3. 复制粘贴公钥
-* 
+  
+* 将本地仓库推送给远程GitHub仓库
 
+  终端输入：
+
+  ```cmd
+  git remote add origin git@github.com:jiuwen567/learn-git.git
+  git branch -M main
+  git push -u origin main
+  ```
+
+  ![image-20230126220506109](https://typora567.oss-cn-chengdu.aliyuncs.com/temp_picture/image-20230126220506109.png)
+
+### Gitee
+
+* 配置公钥与GitHub大致一样
+
+  
