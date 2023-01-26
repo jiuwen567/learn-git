@@ -65,4 +65,13 @@
 
 * 配置公钥与GitHub大致一样
 
-  
+* 将本地仓库推送给远程Gitee仓库
+
+* 终端输入：
+
+  ```cmd
+  git remote add gitee git@gitee.com:jiuwen567/learn_git.git
+  git push -u gitee main
+  ```
+
+  * 注意GitHub中的origin可以随意替换如果在两个平台同时创建则origin需要替换成不同的值
